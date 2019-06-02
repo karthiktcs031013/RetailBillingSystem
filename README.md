@@ -27,18 +27,21 @@ billing>$ bin/billing_service.sh
 
 Once its Lanuched, You can execute below URL
 
+##Swagger UI
+
 http://localhost:8080/swagger-ui.html
 
 From that Swagger UI, Click billing-controller and choose /billing/netpay endpoint,
 
 The you can try it with valid example JSON from Swagger UI.
 
-To Launch H2 Console,
+##To Launch H2 Console,
 
 http://localhost:8080/h2-console/
 UName:sa
 PWD:password
 
+# UML Diagrams are committed with UML Folder for your reference
 
 
 
