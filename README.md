@@ -53,7 +53,7 @@ To Run the Basic functionalities,  prepopulated Below Customer details in H2 Dat
 |     2	    |     Bala	  |  def@gmail.com|	+832423434	    |        A	      |    null	  |       1	   | 2019-06-03   |
 |     3	    |     Rohit	  |erf@gmail.com	|+832423434	      |        NA	      |    null	  |      null	 | 2019-06-03   |
 |     4	    |     Ram	    | ram@gmail.com	| +832423434	    |        NA	      |    null	  |       null | 2015-12-15   |
-|-----------|-------------|---------------|-----------------|-----------------|-----------|------------|--------------|
+
 
 
 UML Diagrams are committed with UML Folder for your reference
