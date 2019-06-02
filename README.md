@@ -38,11 +38,28 @@ The you can try it with valid example JSON from Swagger UI.
 
 ## To Launch H2 Console,
 
+```
 http://localhost:8080/h2-console/
 UName:sa
 PWD:password
+```
+To Run the Basic functionalities,  prepopulated Below Customer details in H2 Database,
 
-# UML Diagrams are committed with UML Folder for your reference
+
+
+|CUSTOMER_ID|    NAME     |     EMAIL     |    MOBILE_NO    |     CATEGORY    |EMPLOYEE_ID|AFFILIATE_ID|SUBSCRIBE_DATE|
+|-----------|-------------|---------------|-----------------|-----------------|-----------|------------|--------------|
+|     1	    |    Aliko	  |  abc@gmail.com|	+832423434      |	       E	      |        1	|      null	 | 2019-06-03   |
+2	Bala	def@gmail.com	+832423434	A	null	1	2019-06-03
+3	Rohit	erf@gmail.com	+832423434	NA	null	null	2019-06-03
+4	Ram	ram@gmail.com	+832423434	NA	null	null	2015-12-15
+(4 rows, 14 ms)
+
+
+UML Diagrams are committed with UML Folder for your reference
+
+## Sample Request For Obtaining Discount For Employees
+
 
 
 
