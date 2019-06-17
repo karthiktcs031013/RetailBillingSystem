@@ -11,15 +11,15 @@ public class Goods {
     @Size(min = 1,message = "Bill no should not be blank")
     private String id;
 
-    @NotNull(message = "Goods Id is mandatory")
+    @NotNull(message = "Goods Name is mandatory")
     @Size(min = 1,message = "Bill no should not be blank")
     private String name;
 
-    @NotNull(message = "Goods Id is mandatory")
+    @NotNull(message = "Goods Price is mandatory")
     @DecimalMin(value = "0.01",message = "Not allowed negative values / Zero")
     private BigDecimal price;
 
-    @NotNull(message = "Goods Id is mandatory")
+    @NotNull(message = "Goods Type is mandatory")
     private GoodsType type;
 
     public String getId() {
